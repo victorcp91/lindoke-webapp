@@ -1,0 +1,65 @@
+.background{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #005F86;
+
+}
+
+.container {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+  h2{
+    color: #f6be00;
+    font-weight: normal;
+    font-size: 24px;
+  }
+  .logo{
+    path{
+      stroke:rgb(91.763306%,66.665649%,0%);
+      fill-rule:nonzero;
+      fill:rgb(91.763306%,66.665649%,0%);
+      stroke-dasharray: 1000;
+      fill-opacity: 1;
+    }
+  }
+}
+
+.playingContainer{
+  background-color: #005F86;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  .videoContainer{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    iframe{
+      width: 100vw;
+      height: calc(100vh - 50px);
+    }
+  }
+  .protect{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+.qrcontainer{
+  background-color: #f6be00;
+}
