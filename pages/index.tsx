@@ -90,15 +90,16 @@ export default function Home() {
           <section className={styles.start}>
           <div className={styles.qrContainer}>
             <QRCode value={`https://lindokeapp.page.link/?link=screen${screenId}&apn=com.lindokeapp&ibi=com.lindokeapp`} bgColor="#005F86" fgColor="#f6be00"/>
-            <strong>Conecte algum smartphone para iniciar o show</strong>
+            {/* <strong>Conecte algum smartphone para iniciar o show</strong> */}
+            <strong>Conecte algum smartphone para abrir a sala</strong>
           </div>
-          <div className={styles.help}>
+          {/* <div className={styles.help}>
             <ul>
               <li>1. Baixe o aplicativo do Lindokê na Play Store(Android) ou diretamente pelo QRCode</li>
               <li>2. Crie ou selecione uma sala utilizando o app e carregue na tela através do QRCode</li>
               <li>3. Convide seus amigos e cante suas músicas favoritas!</li>
             </ul>
-          </div>
+          </div> */}
         </section>
         )}
       </main>
